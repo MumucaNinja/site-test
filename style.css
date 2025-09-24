@@ -1,3 +1,117 @@
+/* Responsividade global para todos os dispositivos */
+@media (max-width: 1200px) {
+	main {
+		max-width: 98vw;
+		margin: -30px auto 0 auto;
+		padding: 24px 4vw 10px 4vw;
+	}
+	.etapas-list, .benefit-list, .blog-list, .depo-list, .portfolio-list {
+		gap: 16px;
+	}
+	.footer-content {
+		max-width: 98vw;
+	}
+}
+@media (max-width: 900px) {
+	nav.menu-top, nav {
+		font-size: 1em;
+		padding: 0.5em 0.2em;
+	}
+	.banner-content h1, header h1 {
+		font-size: 2em;
+	}
+	.banner-content p, header p {
+		font-size: 1em;
+	}
+	.etapa, .benefit, .blog-item, .portfolio-item {
+		max-width: 95vw;
+		padding: 14px 6px;
+	}
+	.depo-list {
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+	.footer-links {
+		flex-direction: column;
+		gap: 8px;
+	}
+	.hero {
+		flex-direction: column;
+		text-align: center;
+		padding: 40px 0 20px 0;
+	}
+	.hero-content {
+		margin-left: 0;
+	}
+	.hero-img {
+		margin-right: 0;
+		margin-top: 20px;
+		max-width: 90vw;
+	}
+	.portfolio-list, .benefit-list, .depo-list {
+		gap: 16px;
+	}
+	.cta-banner {
+		max-width: 98vw;
+	}
+}
+@media (max-width: 700px) {
+	nav.menu-top, nav {
+		font-size: 0.95em;
+		padding: 0.3em 0.1em;
+	}
+	.banner-content h1, header h1 {
+		font-size: 1.3em;
+	}
+	.banner-content p, header p {
+		font-size: 0.95em;
+	}
+	.etapa, .benefit, .blog-item, .portfolio-item {
+		max-width: 99vw;
+		padding: 10px 2px;
+	}
+	.depo-list {
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+	}
+	.footer-links {
+		flex-direction: column;
+		gap: 6px;
+	}
+	.hero {
+		flex-direction: column;
+		text-align: center;
+		padding: 24px 0 10px 0;
+	}
+	.hero-content {
+		margin-left: 0;
+	}
+	.hero-img {
+		margin-right: 0;
+		margin-top: 12px;
+		max-width: 99vw;
+	}
+	.portfolio-list, .benefit-list, .depo-list {
+		gap: 8px;
+	}
+	.cta-banner {
+		max-width: 99vw;
+		padding: 18px 2vw;
+	}
+	main, .footer-content {
+		padding: 10px 2vw;
+	}
+	.newsletter-form, .contato-form {
+		padding: 10px 2vw;
+		max-width: 99vw;
+	}
+	.contato-info {
+		padding: 10px 2vw;
+		max-width: 99vw;
+	}
+}
 body {
 	margin: 0;
 	font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
